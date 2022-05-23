@@ -4,11 +4,11 @@ metadata:
   name: myapp-argo-application
   namespace: argocd
 spec:
-  project: myproj-eman
+  project: default
 
   source:
     repoURL: https://github.com/e-naval/argotest.git
-    targetRevision: MAIN
+    targetRevision: HEAD
     path: dev
   destination: 
     server: https://kubernetes.default.svc
