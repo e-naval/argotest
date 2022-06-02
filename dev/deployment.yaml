@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: httpd:2.4
+        image: httpd:latest
